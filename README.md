@@ -6,7 +6,14 @@ This package provides an alternative by streaming these items instead, reducing 
 
 ```javascript
 const SteamInventoryStream = require('steam-inventory-stream')
-const inventoryStream = new SteamInventoryStream(steamId, appId, contextId, [language=en], [maxSequentialErrors=5], [maxChunkSize=5000])
+const inventoryStream = new SteamInventoryStream(
+  steamId,
+  appId,
+  contextId,
+  [language=en],
+  [maxSequentialErrors=5],
+  [maxChunkSize=5000]
+)
 
 /**
  * steamId must be a string
@@ -26,3 +33,4 @@ inventoryStream.on('data', items => {
 inventoryStream.on('end', () => {
   console.log('All items have been fetched')
 })
+```
