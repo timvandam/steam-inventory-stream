@@ -33,6 +33,7 @@ const inventoryStream = new SteamInventoryStream(
 // You can now use `inventoryStream` just like any other readable stream, e.g.:
 
 inventoryStream.on('data', items => {
+  // `items` is an array of SteamItem (lib/SteamItem.js) instances
   console.log(`Fetched ${items.length} items`)
 })
 
