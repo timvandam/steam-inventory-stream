@@ -4,6 +4,12 @@ The 'usual' way Steam inventories are usually fetched is using [steam-tradeoffer
 
 This package provides an alternative by streaming these items instead, reducing memory usage when used correctly.
 
+## Installation
+`$ npm install steam-inventory-stream`
+
+`$ yarn add steam-inventory-stream`
+
+## Usage
 ```javascript
 const SteamInventoryStream = require('steam-inventory-stream')
 const inventoryStream = new SteamInventoryStream(
