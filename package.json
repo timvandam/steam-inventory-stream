@@ -1,0 +1,9 @@
+{
+  "name": "steam-inventory-stream",
+  "version": "1.0.0",
+  "description": "Fetch Steam inventories as a readable stream",
+  "main": "index.js",
+  "repository": "git@github.com:timvandam/steam-inventory-stream.git",
+  "author": "Tim van Dam <timvandamcs@gmail.com>",
+  "license": "MIT"
+}
