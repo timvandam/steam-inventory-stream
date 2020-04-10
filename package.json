@@ -1,6 +1,6 @@
 {
   "name": "steam-inventory-stream",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Fetch Steam inventories as a readable stream",
   "main": "index.js",
   "repository": "git@github.com:timvandam/steam-inventory-stream.git",
@@ -11,5 +11,8 @@
   },
   "scripts": {
     "test": "jest"
+  },
+  "dependencies": {
+    "request": "^2.88.2"
   }
 }
