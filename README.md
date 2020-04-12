@@ -1,6 +1,6 @@
 # steam-inventory-stream
 
-The 'usual' way Steam inventories are usually fetched is using [steam-tradeoffer-manager](https://github.com/DoctorMcKay/node-steam-tradeoffer-manage) or [steamcommunity](https://github.com/DoctorMcKay/node-steamcommunity). Unfortunately these modules don't support streams, which means that all items in the inventory being loaded will be saved to memory.
+The 'usual' way Steam inventories are usually fetched is using [steam-tradeoffer-manager](https://github.com/DoctorMcKay/node-steam-tradeoffer-manager) or [steamcommunity](https://github.com/DoctorMcKay/node-steamcommunity). Unfortunately these modules don't support streams, which means that all items in the inventory being loaded will be saved to memory.
 
 This package provides an alternative by streaming these items instead, reducing memory usage when used correctly.
 
